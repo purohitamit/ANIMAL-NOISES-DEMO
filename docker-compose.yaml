@@ -51,3 +51,4 @@ volumes:
   animal-vol:
 networks:
   animal-net:
+    # driver: overlay (uncomment when deploying via docker stack)
